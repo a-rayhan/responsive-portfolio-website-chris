@@ -752,17 +752,17 @@ body.dark-theme {
   transform: translateX(.25rem);
 }
 
-.contact__form{
+.contact__form {
   position: relative;
   row-gap: 2rem;
 }
 
-.contact__form-div{
+.contact__form-div {
   position: relative;
   height: 4rem;
 }
 
-.contact__form-input{
+.contact__form-input {
   position: absolute;
   top: 0;
   left: 0;
@@ -779,7 +779,7 @@ body.dark-theme {
   z-index: 1;
 }
 
-.contact__form-tag{
+.contact__form-tag {
   position: absolute;
   top: -.75rem;
   left: 1.25rem;
@@ -791,15 +791,15 @@ body.dark-theme {
   font-weight: var(--font-medium);
 }
 
-.contact__form-area{
+.contact__form-area {
   height: 10rem;
 }
 
-.contact__form-area textarea{
+.contact__form-area textarea {
   resize: none;
 }
 
-.contact__form .contact__button{
+.contact__form .contact__button {
   border: none;
   outline: none;
   background: none;
@@ -810,7 +810,7 @@ body.dark-theme {
   cursor: pointer;
 }
 
-.contact__form .contact__button i{
+.contact__form .contact__button i {
   font-size: 1.5rem;
   font-weight: initial;
 }
@@ -819,7 +819,56 @@ body.dark-theme {
 
 
 /*=============== FOOTER ===============*/
+.footer__container {
+  padding: 3rem 0 7rem;
+  text-align: center;
+}
 
+.footer__title {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+}
+
+.footer__list,
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__list {
+  margin: 2.5rem 0;
+  column-gap: 2.5rem;
+}
+
+.footer__link {
+  color: var(--title-color);
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__social {
+  column-gap: 1.25rem;
+}
+
+.footer__social-link {
+  font-size: 1.25rem;
+  color: var(--text-color-light);
+  transition: transform .3s;
+}
+
+.footer__social-link:hover{
+  transform: translateY(-.15rem);
+}
+
+.footer__copy{
+  display: block;
+  margin-top: 4.5rem;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
 
 /*=============== SCROLL BAR ===============*/
 
