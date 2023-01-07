@@ -43,6 +43,12 @@ let swiperProjects = new Swiper(".projects__container", {
     },
     mousewheel: true,
     keyboard: true,
+    breakpoints: {
+        1200: {
+            slidesPerView: 2,
+            spaceBetween: -56,
+        }
+    },
 });
 
 /*=============== SWIPER TESTIMONIAL ===============*/
